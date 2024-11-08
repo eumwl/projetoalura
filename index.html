@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #444;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #f9a826;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #bbb;
+}
+
+.filmes {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.filmes h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #f9a826;
+}
+
+.lista-filmes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filme {
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 150px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.filme img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.filme p {
+    padding: 10px;
+    font-size: 1em;
+    color: #f9a826;
+}
+
+.filme:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #444;
+    color: #bbb;
+    font-size: 0.9em;
+}
